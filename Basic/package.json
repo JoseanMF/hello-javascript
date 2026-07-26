@@ -1,3 +1,7 @@
 {
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "D": "^1.0.0",
+        "ts-node": "^10.9.2"
+    }
 }

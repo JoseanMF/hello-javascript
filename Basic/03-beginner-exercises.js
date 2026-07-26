@@ -5,9 +5,24 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=4733
 
 // 1. Escribe un comentario en una línea
 
+// Comentario de una linea.
+
 // 2. Escribe un comentario en varias líneas
 
+/* Comentaraio de varias lineas
+    Estoy en la segunda linea de comentario de varias lineas
+    Ahora termino el comentario.
+*/
+
 // 3. Declara variables con valores asociados a todos los datos de tipo primitivos
+
+let miNombre = "Josean"
+let miEdad = 63
+let soyVaron = true
+let valorIndefinido = undefined
+let valorNulo = null
+let miSimbolo = Symbol
+let numeroGrande = BigInt(651651651651)
 
 // 4. Imprime por consola el valor de todas las variables
 
