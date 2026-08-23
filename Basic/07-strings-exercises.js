@@ -5,7 +5,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=7226
 
 // 1. Concatena dos cadenas de texto
 
-console.log ("hola amigo, " +"veo que sigues trabajando...")
+console.log ("hola amigo, " + "veo que sigues trabajando...")
 
 
 // 2. Muestra la longitud de una cadena de texto
@@ -32,17 +32,21 @@ console.log (`Vamos a crear una cadena de texto
 // 6. Interpola el valor de una variable en un string
 
 let miNombre = "Josean"
-console.log(`Amigo ${miNombre}, ¿no crees que ya eres mayor para andar haciendo ejercicios de cadenitas?`)
+console.log(`${miNombre}, tienes que esforzarte más en la programación`)
 
 // 7. Reemplaza todos los espacios en blanco de un string por guiones
+// esto es una expresión regular: / /g. indica que se va a buscar todos los espacios en blanco y se van a sustituir por un -.
 
-console.log(mensaje.replaceAll(" ","-"))
+console.log("Reemplazar espacion por guiones: " + mensaje.replace(/ /g,"-"))
 
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
 
-console.log(mensaje.includes('caperucita'))
+console.log("Ver si mensaje contiene la palabra caperucita: " + mensaje.includes('caperucita'))
 
 // 9. Comprueba si dos strings son iguales
 
+console.log(miNombre == "Antonio")
 
 // 10. Comprueba si dos strings tienen la misma longitud
+
+console.log(miNombre.length == mensaje.length)

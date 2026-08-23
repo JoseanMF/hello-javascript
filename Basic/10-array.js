@@ -88,10 +88,10 @@ console.log(myArray)
 
 myArray = ["Brais", "Moure", "mouredev", 37, true]
 
-let myNewArray = myArray.slice(1, 3)
+let myNewArray = myArray.slice(1, 1)
 
 console.log(myArray)
-console.log(myNewArray)
+console.log("myNewArray: " + myNewArray)
 
 // splice
 
@@ -102,3 +102,4 @@ myArray = ["Brais", "Moure", "mouredev", 37, true]
 
 myArray.splice(1, 2, "Nueva entrada")
 console.log(myArray)
+
